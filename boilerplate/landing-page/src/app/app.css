@@ -1,5 +1,9 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
 .app-container {
-  min-height: calc(100vh - 56px); /* navbar */
+  min-height: calc(100vh - 56px);
   padding: 1.5rem;
-  /* background-color: #020617; (opsional) */
 }
