@@ -2,13 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  padding: 0.75rem 1rem;
 
+  width: 100%;
   padding: 0.75rem 2rem;
+
   background-color: #0f172a;
   color: #e5e7eb;
-  gap: 2rem;
 
   font-family:
     system-ui,
@@ -22,11 +21,10 @@
     sans-serif;
 }
 
+/* Brand (logo only ) */
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.5rem; /* logo & text */
-
   text-decoration: none;
   color: inherit;
 }
@@ -37,11 +35,11 @@
   width: auto;
 }
 
-/* Navigation links wrapper */
+/* Navigation links */
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 1.25rem; /* Home & About */
+  gap: 1.25rem;
 }
 
 /* Links */
@@ -61,7 +59,7 @@
 /* Active route */
 .nav-links a.active {
   color: #e5e7eb;
-  border-bottom: 2px solid #e5e7eb;
+  border-bottom: 2px solid currentColor;
 }
 
 /* Hover */
