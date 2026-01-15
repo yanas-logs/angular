@@ -107,4 +107,16 @@
     pointer-events: auto;
     transform: translateY(0);
   }
+
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .login-link {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
 }
